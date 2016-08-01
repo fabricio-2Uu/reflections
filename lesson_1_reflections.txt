@@ -1,0 +1,14 @@
+Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+Se você tiver um arquivo de código estável, poderá utilizá-lo como referência para identificar typos de digitação utilizando o diff. Ele faz o trabalho de comparar linha a linha os arquivos e te mostrar aquelas que estão diferentes.
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+Ter o histórico do arquivo ajuda a identificar quebras no código e restaurar antigas versões que estavam estáveis antes da última mudança.
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+Prós: Escolhe o momento certo para fazer o commit, permitindo separar por unidades lógicas que facilitam tanto a leitura quanto a reversão para cógidos anteriores. Contra: Pode se esquecer de fazer o commit, ou pode perder tudo por alguma falha de hardware ou rede.
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+Porque o GIT foi desenhado para ser utilizado pela comunidade de desenvolvedores de software, que demandam a utilização de diversos arquivos simultaneamente para escrever códigos de programação. Por outro lado, o Google Docs foi criado pensando em usuários domésticos ou profissionais não voltados exclusivamente para a programação, os quais demandam arquivos únicos com uma maior capacidade de formatação.
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+O comando git log irá mostrar todos os commits do arquivo com sua mensagem de resumo, o qua ajuda a localizar o commit que você deseja visualizar. O git diff irá ajudar a abrir e comparar dois commits, permitindo visualizar tudo aquilo que sofre alteração entre os dos comandos.
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+Com controle de versão é possível reverter uma mudança que tenha sido danosa para o software, como a inserção de um bug, ou o apagamento de um trecho específico do código. Desta forma o programador fica mais livre para realizar mudanças sabendo que podera reverter para um ponto de segurança.
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+Contruir poderosos softwares em conjunto com outros programadores.
