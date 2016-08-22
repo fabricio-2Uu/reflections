@@ -1,18 +1,11 @@
-What happens when you initialize a repository? Why do you need to do it?
-
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
-
-How can you use the staging area to make sure you have one commit per logical
-change?
-
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
-
-How do the diagrams help you visualize the branch structure?
-
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
-
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+Selecionando os arquivos para a staging area antes de fazer o commit. Mesmo que tenham vários arquivos para commitar, basta adicionar em grupos aqueles que pertecem a mesma identidade lógica.
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+Quando você desejasse experimentar novas modificações sem que influenciassem a versão de produção.
+Como os diagramas ajudam a visualizar a estrutura de branches?
+Ajudar a enxergar a linha do tempo dos commits, tornando possível comparar duas trilhas de branches distintas que correm paralelas.
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+O resultado é a união das diferenças, incluindo o que foi adicionado e excluindo o que foi removido. A representação serve para permitir visualizar a linha histórica de commits que ocorreram, de forma a saber quem são os pais de cada branch.
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+Prós: agilidade, menor risco de erro, tempo economizado, comparação automática de duas versões de arquivo;
+Contra: conflitos de código alterados simultaneamente.
