@@ -1,0 +1,1 @@
+Como funciona quando o repositório remoto está diferente do teu repositório local.
