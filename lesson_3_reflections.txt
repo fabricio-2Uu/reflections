@@ -1,1 +1,8 @@
 Como funciona quando o repositório remoto está diferente do teu repositório local.
+
+Por que você prefere efetuar pull de alterações manualmente do que deixar o Git atualizar-se automaticamente com o seu repositório remoto?
+Pois posso controlar em que momento desejo receber novas atualizações do código e assim evitar que uma atualização interfira em modificações que ainda não foram comitadas.
+Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e não os outros?
+Bifurcações -> São cópias de uma Branch, em regra a Master, sem a permissão de alteração na Branch original, ou seja, sem poder de realizar pull commit direto no repositório remoto;
+Clones -> É a cópia de uma Branch para o repositório local;
+Branches -> São alterações novas nas rotas de commits alternativas ao Master para a inclusão de um feature que posteriormente pode ser unificadas.
